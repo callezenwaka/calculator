@@ -1,0 +1,11 @@
+.vscode
+dist/
+/build
+_build
+__pycache__
+*.egg-info
+/docs/reference
+/book/reference
+
+.pre-commit-config.yaml
+.ci.yaml
