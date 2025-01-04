@@ -1,11 +1,24 @@
-.vscode
-dist/
-/build
-_build
-__pycache__
-*.egg-info
-/docs/reference
-/book/reference
+# Build directory
+build/
+/build*/
 
-.pre-commit-config.yaml
-.ci.yaml
+# Compiled files
+*.o
+*.out
+*.exe
+
+# CMake generated
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
